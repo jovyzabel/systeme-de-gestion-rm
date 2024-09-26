@@ -1,0 +1,56 @@
+:root{
+    --primary: #EFECEC;
+    --secondary: #224957;
+    --btn: #20DF7F;
+    --nav: #D9D9D9;
+
+    /* font */
+    --ff: ;
+    --font-color:#224957
+
+}
+
+body{
+    background-color: var(--primary);
+    color: var(--font-color);
+}
+.our-background{
+    background-color: var(--secondary) !important;
+    color: var(--btn);
+}
+.our-btn{
+    background-color: var(--btn);
+    color: var(--secondary);
+}
+.our-btn:hover{
+    background-color: #06eb78;
+    
+}
+input::placeholder{
+    color: #D9D9D9 !important;
+}
+
+.card-body h3{
+    color: var(--secondary);
+}
+
+.my-nav-bg{
+    background-color: var(--nav);
+}
+.my-card-bg{
+    background-color: #98a2a5 !important;
+}
+.text-color{
+    color: var(--secondary);
+}
+.my-icon-color{
+    color: var(--nav);
+}
+
+/* Media Queries */
+
+@media screen and(max-width : 480px) {
+    .min-wide{
+        width: 40% !important;
+    }
+}
